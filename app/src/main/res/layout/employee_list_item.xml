@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/employee_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="0dp"
+    android:paddingRight="@dimen/recyclerview_item_padding"
+    android:paddingLeft="@dimen/recyclerview_item_padding"
+    android:paddingTop="@dimen/recyclerview_item_padding">
+    <View
+        android:id="@+id/separator"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_height="@dimen/separator_width"
+        android:background="@color/colorGrey"/>
+
+
+    <ImageView
+        android:id="@+id/item_image"
+        android:layout_width="@dimen/item_image_width"
+        android:layout_height="@dimen/item_image_width"
+        android:layout_margin="@dimen/item_image_margin"
+        android:layout_alignParentLeft="true"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/name_label"
+        android:layout_width="@dimen/item_textview_width"
+        android:layout_height="wrap_content"
+        style="@style/LargeTextStyle"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:gravity="right"
+        android:textColor="@color/colorBlack" />
+
+    <TextView
+        android:id="@+id/discipline_label"
+        android:layout_width="@dimen/item_textview_width"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:gravity="right"
+        style="@style/SmallTextStyle"
+        android:textColor="@color/colorGrey" />
+
+</RelativeLayout>

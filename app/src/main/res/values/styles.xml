@@ -1,0 +1,45 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorBlue</item>
+    </style>
+
+    <style name="SmallTextStyle">
+        <!-- Customize your theme here. -->
+        <item name="android:textSize">@dimen/item_small_text</item>
+        <item name="android:padding">@dimen/text_padding</item>
+    </style>
+
+    <style name="LargeTextStyle">
+        <!-- Customize your theme here. -->
+        <item name="android:textSize">@dimen/item_large_text</item>
+        <item name="android:padding">@dimen/text_padding</item>
+    </style>
+
+    <style name="LargeWhiteText">
+        <!-- Customize your theme here. -->
+        <item name="android:textSize">@dimen/detail_big_text</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:padding">@dimen/text_padding</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="NarrowWhiteText">
+        <!-- Customize your theme here. -->
+        <item name="android:textSize">@dimen/detail_small_text</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:padding">@dimen/text_padding</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="Detail_label_text">
+        <item name="android:textSize">@dimen/detail_label_text_size</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>
